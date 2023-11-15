@@ -5,9 +5,70 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  height: 100vw;
+  width: 100vw;
+  overflow-x: hidden;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.active {
+  background-color: #25467dff;
+  color: #ffffff;
+}
+
+.nav-button {
+  border: none;
+  background: #ffffff;
+  color: #182F5D;
+  font-size: 25px;
+  border-radius: 25px;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 10px 25px 10px 25px;
+  text-decoration: none;
+  font-family: Futura;
+  text-decoration: none;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  text-align: center;
+  gap: 10px;
+}
+
+.nav-button:hover {
+  background-color: #25467dff;
+  color: #ffffff;
+}
+
+.search-button {
+  border: none;
+  background-color: #25467dff;
+  color: #ffffff;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 5px 10px;
+  text-decoration: none;
+  font-family: Futura;
+  text-decoration: none;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  text-align: center;
+  gap: 10px;
+}
+
+.search-button:hover {
+  background: #ffffff;
+  color: #182F5D;
 }

@@ -49,7 +49,10 @@ export const AllArtists: React.FC = () => {
         <Link
           style={{ textDecoration: 'none' }}
           key={artist.Artist_ID}
-          to={`/artists/${artist.Artist_ID}`}><StyledParagraphSpanSmall>{artist.Name}</StyledParagraphSpanSmall>
+          to={`/artists/${artist.Artist_ID}`}>
+            <StyledParagraphSpanSmall>
+              {artist.Name}
+            </StyledParagraphSpanSmall>
         </Link>
       ))}
     </div>
